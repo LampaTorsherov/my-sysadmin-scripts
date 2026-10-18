@@ -13,3 +13,10 @@ fi
 
 grep -aiE "error|fail" "$LOGFILE" > report.txt
 
+if [[ $? -eq 0 ]]; then
+    echo "Success: report.txt contains $(wc -l < report.txt) lines"
+else
+    echo "Fatal: cannot collect logs to report.txt"
+    exit $?
+fi
+

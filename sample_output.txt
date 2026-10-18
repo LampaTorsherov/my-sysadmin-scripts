@@ -1,0 +1,5 @@
+Oct 18 13:28:18 sysadmin-host kernel: [    0.482756] Failed to register legacy timer interrupt
+Oct 18 13:28:18 sysadmin-host kernel: [    0.621336] RAS: Correctable Errors collector initialized.
+Oct 18 13:28:18 sysadmin-host kernel: [    9.910432] EXT4-fs (sda1): re-mounted. Opts: discard,errors=remount-ro. Quota mode: none.
+Oct 18 13:28:18 sysadmin-host cloud-init[637]: 2026-10-18 10:28:09,794 - schema.py[WARNING]: cloud-config failed schema validation! You may run 'sudo cloud-init schema --system' to check the details.
+Oct 18 13:28:18 sysadmin-host systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.

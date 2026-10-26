@@ -1,6 +1,6 @@
 services:
   app:
-    build: .
+    image: my-script
     container_name: my-app
     volumes:
       - /var/log:/var/log:ro
